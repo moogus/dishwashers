@@ -1,5 +1,8 @@
 # Dishwasher App [![Build Status](https://travis-ci.com/moogus/dishwashers.svg?branch=main)](https://travis-ci.com/moogus/dishwashers)
 
+### [Travis CI](https://travis-ci.com/github/moogus/dishwashers)
+![image](https://user-images.githubusercontent.com/4889659/107957152-19977300-6f98-11eb-954e-ed8b4095bcfc.png)
+
 ## Project structure
 ```bash
 ├── app               # application files
@@ -31,7 +34,7 @@ yarn test
 ```
 This starts the project on http://localhost:3000/ please not the api calls have been proxied to work locally to avoid [cors issues](https://www.npmjs.com/package/local-cors-proxy).
 
-## Technologies used
+## Technologies used:
 * [react](https://github.com/facebook/react)
 * [redux](https://redux.js.org/)
 * [styled components](https://styled-components.com/)
@@ -45,13 +48,21 @@ This starts the project on http://localhost:3000/ please not the api calls have 
 Bootstrap is the only 3rd party library used to gain quick styling.
 
 ## Work done
-I allowed one day (8 hours) for the challenge.
+**I allowed one day (8 hours) for the challenge.**
 
-I have used reach router for routing as it has a simple set up and provides an easy way to navigate from inside components.  I've used a simple redux set up with thunks for state management, I did consider not bothering due to the simplicity of the api calls.  I've used custom hooks to interact with redux rather then using connected components.
+The project has been built from scratch rather than using [react create app](https://reactjs.org/docs/create-a-new-react-app.html) or another framework set up.  
 
-I have used styled components where I have needed custom css.  Styled components for the component are nested with the component.  I considered breaking out the styled components into their own folder to keep the code "DRY" but there was very little re-use.
+I've used [reach router](https://reach.tech/router/) for routing as it has a simple set up and provides an easy way to navigate from inside components.  
 
-I have used jest and RTL for testing.  I have written unit tests in each folder.  The tests #app/components/GridPage/GridPage.spec.js and #app/components/ProductPage/ProductPage.spec.js cover the pages and are more "integration" in style.
+I've used redux with thunks for state management. I did consider [redux toolkit](https://redux-toolkit.js.org/), but the application needed very little state management. I haven't persisted the state. Custom hooks have been built to interact with redux rather then using connected components.
+
+I have used styled components when there was a needed for custom css.  Any styled components are nested with the component they are used in.  I considered breaking out the styled components into their own folder to keep the code "DRY" but there was very little re-use.
+
+I have used jest and RTL for testing.  I have written unit tests in each folder.  
+
+The following tests cover the pages, and are more "integration" in style:
+* #app/components/GridPage/GridPage.spec.js
+* #app/components/ProductPage/ProductPage.spec.js
 
 ### Grid Page
 ![grid](https://user-images.githubusercontent.com/4889659/107943432-9e789180-6f84-11eb-9c24-deee4cd12421.png)
