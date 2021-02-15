@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`model is built from data empty model is build as expected 1`] = `
+Object {
+  "image": undefined,
+  "price": "£undefined",
+  "productId": undefined,
+  "title": undefined,
+}
+`;
+
+exports[`model is built from data hydrated model is build as expected 1`] = `
+Object {
+  "image": "cuddly toy",
+  "price": "£then",
+  "productId": "generation game",
+  "title": "good game",
+}
+`;

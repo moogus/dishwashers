@@ -8,6 +8,7 @@ module.exports = {
         ['actions', './app/redux/actions'],
         ['reducers', './app/redux/reducers'],
         ['store', './app/redux/store'],
+        ['models', './app/models'],
       ],
     },
   },
