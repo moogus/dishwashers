@@ -61,8 +61,8 @@ I have used styled components when there was a needed for custom css.  Any style
 I have used jest and RTL for testing.  I have written unit tests in each folder.  
 
 The following tests cover the pages, and are more "integration" in style:
-* #app/components/GridPage/GridPage.spec.js
-* #app/components/ProductPage/ProductPage.spec.js
+* [#app/components/GridPage/GridPage.spec.js](app/components/ProductPage/ProductPage.spec.js)
+* [#app/components/ProductPage/ProductPage.spec.js](app/components/ProductPage/ProductPage.spec.js)
 
 ### Grid Page
 ![grid](https://user-images.githubusercontent.com/4889659/107943432-9e789180-6f84-11eb-9c24-deee4cd12421.png)
