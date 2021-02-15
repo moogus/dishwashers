@@ -32,7 +32,7 @@ yarn start
 ```sh
 yarn test
 ```
-This starts the project on http://localhost:3000/ please not the api calls have been proxied to work locally to avoid [cors issues](https://www.npmjs.com/package/local-cors-proxy).
+This starts the project on http://localhost:3000/ api calls have been proxied to work locally to avoid [cors issues](https://www.npmjs.com/package/local-cors-proxy).
 
 ## Technologies used:
 * [react](https://github.com/facebook/react)
@@ -67,7 +67,7 @@ The following tests cover the pages, and are more "integration" in style:
 ### Grid Page
 ![grid](https://user-images.githubusercontent.com/4889659/107943432-9e789180-6f84-11eb-9c24-deee4cd12421.png)
 
-I've tried to match the design as much as possible and meet the requirements given.  I have aimed for a iPad grid working both portrait and landscape.  
+I've tried to match the design as much as possible and meet the requirements given.  I have aimed for a iPad grid working on portrait and landscape.  
 
 ### Product Page
 ![land-product](https://user-images.githubusercontent.com/4889659/107943506-b8b26f80-6f84-11eb-8e85-09b5940438e0.png)
