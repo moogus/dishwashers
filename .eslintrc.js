@@ -6,6 +6,8 @@ module.exports = {
     'import/resolver': {
       alias: [
         ['actions', './app/redux/actions'],
+        ['components', './app/components'],
+        ['hooks', './app/hooks'],
         ['reducers', './app/redux/reducers'],
         ['store', './app/redux/store'],
         ['models', './app/models'],
