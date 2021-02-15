@@ -4,7 +4,11 @@ module.exports = {
   parser: 'babel-eslint',
   settings: {
     'import/resolver': {
-      alias: [],
+      alias: [
+        ['actions', './app/redux/actions'],
+        ['reducers', './app/redux/reducers'],
+        ['store', './app/redux/store'],
+      ],
     },
   },
   rules: {

@@ -1,7 +1,14 @@
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"],
   "plugins": [
-    ["module-resolver"],
+    ["module-resolver", {
+      "root": ["./app"],
+      "alias": {
+        "actions": "./app/redux/actions",
+        "reducers": "./app/redux/reducers",
+        "store": "./app/redux/store"
+      }
+    }],
     "@babel/plugin-transform-runtime",
     "babel-plugin-styled-components"
   ],
