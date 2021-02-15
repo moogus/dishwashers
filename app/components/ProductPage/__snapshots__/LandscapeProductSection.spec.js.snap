@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandscapeProductSection /> component renders as expected 1`] = `
+<div>
+  <div
+    class="d-none d-lg-block -xl-block"
+  >
+    <div
+      class="styled__GridContainer-sc-7qvf1e-5 Rmvlk"
+    >
+      <div
+        class="styled__LanscapeGridInnerContainer-sc-7qvf1e-8 caBZMz"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-8  pr-0"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="styled__FluidImageContainer-lcexfs-1 gBNScO col"
+              >
+                <img
+                  alt="what the dickens"
+                  class="styled__FluidImage-lcexfs-0 gFFyIK d-flex justify-content-center"
+                  data-testid="selected-image"
+                  src="foo"
+                />
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <div
+                  class="d-flex justify-content-center"
+                  data-testid="image-select-buttons"
+                >
+                  <button
+                    class="styled__ActiveDotButton-lcexfs-2 dwkzOS"
+                  >
+                    •
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="styled__TextMarginContainer-sc-7qvf1e-9 fmfiij row"
+            >
+              <div
+                class="col"
+              >
+                <h2
+                  class="styled__H2-sc-7qvf1e-1 ifnKsI"
+                >
+                  Product Information
+                </h2>
+              </div>
+            </div>
+            <div
+              class="styled__TextMarginContainer-sc-7qvf1e-9 fmfiij row"
+            >
+              <div
+                class="col "
+              >
+                <h2
+                  class="styled__H3-sc-7qvf1e-2 eYzICk"
+                >
+                  Product code: foo
+                </h2>
+              </div>
+            </div>
+            <div
+              class="styled__TextMarginContainer-sc-7qvf1e-9 fmfiij row"
+            >
+              <div
+                class="col"
+              >
+                <span />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-4 border-left"
+          >
+            <div
+              class="styled__TextMarginContainer-om15ht-1 iGroMy row"
+            >
+              <div
+                class="col"
+              >
+                <p
+                  class="styled__PriceText-om15ht-0 Lzojg"
+                >
+                  £1000
+                </p>
+                <p
+                  class="styled__RedText-om15ht-2 kydASL"
+                >
+                  Claim an extra 3 years guarantee via redemption
+                </p>
+                <p>
+                  stuff
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

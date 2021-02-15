@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDescription /> when ProductDescription is rendered html string is rendered in the component 1`] = `
+<div>
+  <div
+    class="col"
+  >
+    <span>
+      <p>
+        OMG!!!!
+      </p>
+      <p />
+    </span>
+  </div>
+</div>
+`;
