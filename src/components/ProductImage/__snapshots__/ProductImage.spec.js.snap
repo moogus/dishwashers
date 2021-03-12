@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductImage /> when <ProductImage /> has more than one image buttons can change the image cliecking image select buttons changes the image 1`] = `
+<img
+  alt="what the dickens"
+  class="sc-bdfBwQ eLsnTq d-flex justify-content-center"
+  data-testid="selected-image"
+  src="first image"
+/>
+`;
+
+exports[`<ProductImage /> when <ProductImage /> has more than one image buttons can change the image cliecking image select buttons changes the image 2`] = `
+<img
+  alt="what the dickens"
+  class="sc-bdfBwQ eLsnTq d-flex justify-content-center"
+  data-testid="selected-image"
+  src="second image"
+/>
+`;
+
+exports[`<ProductImage /> when product has different amounts of images product has 1 image renders one button 1`] = `
+<div
+  class="d-flex justify-content-center"
+  data-testid="image-select-buttons"
+>
+  <button
+    class="sc-dlfnbm elhZeT"
+  >
+    •
+  </button>
+</div>
+`;
+
+exports[`<ProductImage /> when product has different amounts of images product has 2 images renders 2 buttons 1`] = `
+<div
+  class="d-flex justify-content-center"
+  data-testid="image-select-buttons"
+>
+  <button
+    class="sc-dlfnbm elhZeT"
+  >
+    •
+  </button>
+  <button
+    class="sc-hKgILt egTnqv"
+    data-testid="activate-image"
+  >
+    •
+  </button>
+</div>
+`;
+
+exports[`<ProductImage /> when product has different amounts of images product has 3 images renders 3 buttons 1`] = `
+<div
+  class="d-flex justify-content-center"
+  data-testid="image-select-buttons"
+>
+  <button
+    class="sc-dlfnbm elhZeT"
+  >
+    •
+  </button>
+  <button
+    class="sc-hKgILt egTnqv"
+    data-testid="activate-image"
+  >
+    •
+  </button>
+  <button
+    class="sc-hKgILt egTnqv"
+    data-testid="activate-image"
+  >
+    •
+  </button>
+</div>
+`;
+
+exports[`<ProductImage /> when product has different amounts of images product has 4 images renders 3 buttons 1`] = `
+<div
+  class="d-flex justify-content-center"
+  data-testid="image-select-buttons"
+>
+  <button
+    class="sc-dlfnbm elhZeT"
+  >
+    •
+  </button>
+  <button
+    class="sc-hKgILt egTnqv"
+    data-testid="activate-image"
+  >
+    •
+  </button>
+  <button
+    class="sc-hKgILt egTnqv"
+    data-testid="activate-image"
+  >
+    •
+  </button>
+</div>
+`;

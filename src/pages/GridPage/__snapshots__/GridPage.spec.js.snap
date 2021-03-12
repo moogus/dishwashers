@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridItem /> when product-grid api has loaded product grid page is rendered as expected 1`] = `
+<div>
+  <div
+    class="sc-kEjbxe jllcuK"
+  >
+    <header>
+      <h1
+        class="sc-pFZIQ imiWkr pt-5 pb-5"
+      >
+        Dishwashers (114)
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div
+          class="sc-iqHYGH hIPneH row"
+        >
+          <div
+            class="sc-bdfBwQ gQwMDF col-md-3"
+            data-testid="clickable-grid-item"
+          >
+            <div
+              class="sc-gsTCUz wFoFg"
+            >
+              <div
+                class="sc-dlfnbm gYlIvC row"
+              >
+                <div
+                  class="sc-hKgILt bEKIEI col"
+                >
+                  <img
+                    alt="What the dickens"
+                    class="sc-eCssSg knjoeH"
+                    src="foo"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-jSgupP gylmqB"
+              >
+                <p
+                  class="sc-gKsewC ebGEqF"
+                >
+                  What the dickens
+                </p>
+              </div>
+              <div
+                class="sc-iBPRYJ kspsru"
+              >
+                <p
+                  class="sc-fubCfw gkHLwA"
+                >
+                  £1000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<GridItem /> when product-grid api is loading a loading message is displayed 1`] = `
+<div>
+  <div
+    class="sc-jrAGrp cCayON"
+  >
+    Loading Dishwashers
+  </div>
+</div>
+`;

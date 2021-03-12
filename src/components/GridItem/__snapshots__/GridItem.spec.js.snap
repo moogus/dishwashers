@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridItemComponent/> when <GridItem/> is rendered component renders as expected 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ gQwMDF col-md-3"
+    data-testid="clickable-grid-item"
+  >
+    <div
+      class="sc-gsTCUz wFoFg"
+    >
+      <div
+        class="sc-dlfnbm gYlIvC row"
+      >
+        <div
+          class="sc-hKgILt bEKIEI col"
+        >
+          <img
+            alt="Hiya"
+            class="sc-eCssSg knjoeH"
+            src="a picture"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jSgupP gylmqB"
+      >
+        <p
+          class="sc-gKsewC ebGEqF"
+        >
+          Hiya
+        </p>
+      </div>
+      <div
+        class="sc-iBPRYJ kspsru"
+      >
+        <p
+          class="sc-fubCfw gkHLwA"
+        >
+          £123
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

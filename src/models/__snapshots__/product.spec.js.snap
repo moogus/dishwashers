@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`model is built from data hydrated model is build as expected 1`] = `
+Object {
+  "additionalServices": Object {},
+  "code": "1234",
+  "displaySpecialOffer": "",
+  "media": Object {
+    "altText": undefined,
+    "urls": Array [
+      "1",
+    ],
+  },
+  "price": "£right here",
+  "productInformation": undefined,
+  "title": "come a long way",
+}
+`;

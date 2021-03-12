@@ -1,23 +1,14 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"],
-  "plugins": [
-    ["module-resolver", {
-      "root": ["./app"],
-      "alias": {
-        "actions": "./app/redux/actions",
-        "components": "./app/components",
-        "hooks": "./app/hooks",
-        "reducers": "./app/redux/reducers",
-        "store": "./app/redux/store",
-        "models": "./app/models"
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
       }
-    }],
-    "@babel/plugin-transform-runtime",
-    "babel-plugin-styled-components"
-  ],
-  "env": {
-    "production": {
-      "plugins": ["transform-react-remove-prop-types"]
-    }
-  }
+    ],
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ]
 }

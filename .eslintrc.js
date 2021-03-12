@@ -1,17 +1,20 @@
 module.exports = {
   root: true,
-  extends: ['airbnb-base', 'plugin:react/recommended', 'react-app'],
-  parser: 'babel-eslint',
-  settings: {
-    'import/resolver': {
-      alias: [
-        ['actions', './app/redux/actions'],
-        ['components', './app/components'],
-        ['hooks', './app/hooks'],
-        ['reducers', './app/redux/reducers'],
-        ['store', './app/redux/store'],
-        ['models', './app/models'],
-      ],
+  parser:  '@typescript-eslint/parser',
+  extends:  [
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended', 
+  ],
+  parserOptions:  {
+    ecmaVersion:  2018, 
+    sourceType:  'module', 
+    ecmaFeatures: {
+        jsx:  true, 
+      },
+  },
+  settings:  {
+    react:  {
+      version:  'detect',
     },
   },
   rules: {

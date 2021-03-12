@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductPrice/> when <ProductPrice/> is rendered component renders as expected 1`] = `
+<div>
+  <div
+    class="sc-gsTCUz dLzFAf row"
+  >
+    <div
+      class="col"
+    >
+      <p
+        class="sc-bdfBwQ cYJQoO"
+      >
+        £10000.00
+      </p>
+      <p
+        class="sc-dlfnbm keIcqY"
+      >
+        Claim an extra 3 years guarantee via redemption
+      </p>
+    </div>
+  </div>
+</div>
+`;

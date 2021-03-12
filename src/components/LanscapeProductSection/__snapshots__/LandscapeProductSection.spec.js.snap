@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandscapeProductSection /> component renders as expected 1`] = `
+<div>
+  <div
+    class="d-none d-lg-block -xl-block"
+  >
+    <div
+      class="sc-pFZIQ hXEXXV"
+    >
+      <div
+        class="sc-jrAGrp hBqYys"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-8  pr-0"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="sc-gsTCUz jyviIo col"
+              >
+                <img
+                  alt="what the dickens"
+                  class="sc-bdfBwQ eLsnTq d-flex justify-content-center"
+                  data-testid="selected-image"
+                  src="foo"
+                />
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <div
+                  class="d-flex justify-content-center"
+                  data-testid="image-select-buttons"
+                >
+                  <button
+                    class="sc-dlfnbm elhZeT"
+                  >
+                    •
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-kEjbxe eArQrG row"
+            >
+              <div
+                class="col"
+              >
+                <h2
+                  class="sc-iBPRYJ fYRKeW"
+                >
+                  Product Information
+                </h2>
+              </div>
+            </div>
+            <div
+              class="sc-kEjbxe eArQrG row"
+            >
+              <div
+                class="col "
+              >
+                <h2
+                  class="sc-fubCfw cwjpul"
+                >
+                  Product code: 12345
+                </h2>
+              </div>
+            </div>
+            <div
+              class="sc-kEjbxe eArQrG row"
+            >
+              <div
+                class="col"
+              >
+                <span />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-4 border-left"
+          >
+            <div
+              class="sc-jSgupP irYxfM row"
+            >
+              <div
+                class="col"
+              >
+                <p
+                  class="sc-eCssSg fXEDVA"
+                >
+                  £1000
+                </p>
+                <p
+                  class="sc-gKsewC eaLtyJ"
+                >
+                  Claim an extra 3 years guarantee via redemption
+                </p>
+                <p>
+                  stuff
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

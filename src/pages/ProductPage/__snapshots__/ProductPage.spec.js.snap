@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductPage /> when product api has loaded a product page is rendered as expected 1`] = `
+<div>
+  <div
+    class="sc-idOhPF XgPF"
+  >
+    <header>
+      <div
+        class="d-flex justify-content-start"
+      >
+        <button
+          class="sc-dIUggk MVjvb"
+        >
+          ‹
+        </button>
+        <h1
+          class="sc-bdfBwQ eChoRV pt-4 pb-4"
+        >
+          foo
+        </h1>
+        <h1
+          class="sc-fFubgz jgOXvX pt-4 pb-4"
+        >
+          title
+        </h1>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div
+          class="d-none d-sm-block d-md-block d-lg-none"
+        >
+          <div
+            class="sc-jrAGrp kOzzJp row"
+          >
+            <div
+              class="sc-iqHYGH ebGHqy col"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="sc-dlfnbm bARfyf col"
+                >
+                  <img
+                    alt="what the dickens"
+                    class="sc-gsTCUz kPBfKS d-flex justify-content-center"
+                    data-testid="selected-image"
+                    src="foo"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="col"
+                >
+                  <div
+                    class="d-flex justify-content-center"
+                    data-testid="image-select-buttons"
+                  >
+                    <button
+                      class="sc-hKgILt eHwdyN"
+                    >
+                      •
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-kEjbxe gFqndP row pt1 pb1 border-top border-bottom"
+              />
+              <div
+                class="sc-gKsewC gCFaFZ row"
+              >
+                <div
+                  class="col"
+                >
+                  <p
+                    class="sc-jSgupP iMfPPR"
+                  >
+                    £1000
+                  </p>
+                  <p
+                    class="sc-iBPRYJ hrHJix"
+                  >
+                    Claim an extra 3 years guarantee via redemption
+                  </p>
+                  <p>
+                    stuff
+                  </p>
+                </div>
+              </div>
+              <div
+                class="sc-crrsfI clIMvm row"
+              >
+                <div
+                  class="col"
+                >
+                  <h2
+                    class="sc-fubCfw bXzuaz"
+                  >
+                    Product Information
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="sc-crrsfI clIMvm row"
+              >
+                <div
+                  class="col"
+                >
+                  <h2
+                    class="sc-pFZIQ jwQzaS"
+                  >
+                    Product code: 12345
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="sc-crrsfI clIMvm row"
+              >
+                <div
+                  class="col"
+                >
+                  <span />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-none d-lg-block -xl-block"
+        >
+          <div
+            class="sc-kstrdz mTIWh"
+          >
+            <div
+              class="sc-hBEYos bctvzG"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-8  pr-0"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="sc-dlfnbm bARfyf col"
+                    >
+                      <img
+                        alt="what the dickens"
+                        class="sc-gsTCUz kPBfKS d-flex justify-content-center"
+                        data-testid="selected-image"
+                        src="foo"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col"
+                    >
+                      <div
+                        class="d-flex justify-content-center"
+                        data-testid="image-select-buttons"
+                      >
+                        <button
+                          class="sc-hKgILt eHwdyN"
+                        >
+                          •
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fodVxV ihlQgI row"
+                  >
+                    <div
+                      class="col"
+                    >
+                      <h2
+                        class="sc-dQppl bKQiMl"
+                      >
+                        Product Information
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fodVxV ihlQgI row"
+                  >
+                    <div
+                      class="col "
+                    >
+                      <h2
+                        class="sc-bqyKva giqUCo"
+                      >
+                        Product code: 12345
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fodVxV ihlQgI row"
+                  >
+                    <div
+                      class="col"
+                    >
+                      <span />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-4 border-left"
+                >
+                  <div
+                    class="sc-gKsewC gCFaFZ row"
+                  >
+                    <div
+                      class="col"
+                    >
+                      <p
+                        class="sc-jSgupP iMfPPR"
+                      >
+                        £1000
+                      </p>
+                      <p
+                        class="sc-iBPRYJ hrHJix"
+                      >
+                        Claim an extra 3 years guarantee via redemption
+                      </p>
+                      <p>
+                        stuff
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<ProductPage /> when product api is loading a loading message is displayed 1`] = `
+<div>
+  <div
+    class="sc-bkzZxe bvuktt"
+  >
+    Loading Dishwashers
+  </div>
+</div>
+`;
