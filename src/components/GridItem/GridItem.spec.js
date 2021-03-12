@@ -7,7 +7,7 @@ import { GridItem } from './index';
 
 jest.mock('@reach/router');
 
-describe('<GridItemComponent/>', () => {
+describe('<GridItem/>', () => {
   const renderContainer = ({
     productId = '1234',
     price = '£123',
