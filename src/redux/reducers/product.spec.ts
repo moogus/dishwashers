@@ -1,10 +1,10 @@
-import { ApiProductModel } from '../../types';
-import * as actions from '../actions/product';
+import { ApiProductModel } from "../../types";
+import * as actions from "../actions/product";
 
-import productReducer from './product';
+import productReducer from "./product";
 
-describe('productReducer', () => {
-  test('initial state', () => {
+describe("productReducer", () => {
+  test("initial state", () => {
     expect(productReducer(undefined, {})).toEqual({ 
       product: {}, 
       loading: true, 
@@ -12,7 +12,7 @@ describe('productReducer', () => {
     });
   });
 
-  test('"PRODUCT_LOADING"', () => {
+  test("'PRODUCT_LOADING'", () => {
     expect(productReducer(
       undefined,
       { type: actions.PRODUCT_LOADING },
@@ -23,21 +23,21 @@ describe('productReducer', () => {
     });
   });
 
-  test('"PRODUCT_LOADED"', () => {
+  test("'PRODUCT_LOADED'", () => {
     expect(productReducer(
       undefined,
       {
         type: actions.PRODUCT_LOADED,
-        product: { toy: 'cuddly' } as unknown as ApiProductModel,
+        product: { toy: "cuddly" } as unknown as ApiProductModel,
       },
     )).toEqual({ 
-      product: { toy: 'cuddly' }, 
+      product: { toy: "cuddly" }, 
       loading: false, 
       error: false 
     });
   });
 
-  test('"PRODUCT_ERROR"', () => {
+  test("'PRODUCT_ERROR'", () => {
     expect(productReducer(
       undefined,
       {
