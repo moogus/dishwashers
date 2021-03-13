@@ -4,17 +4,20 @@ import {
   PRODUCT_ERROR,
 } from "../actions/product";
 
-import { ApiProduct } from "../../types";
+import { ApiProductModel } from "../../types";
 import { ProductsState } from "../../interfaces" 
 
 
 export const intialState:ProductsState = { 
-  product: {} as ApiProduct, 
+  product: {} as ApiProductModel, 
   loading: true, 
   error: false
 };
 
-export default (state = intialState, action: { type?: string; product?: ApiProduct; }):ProductsState  => {
+export default (
+  state = intialState, action: { type?: string; product?: ApiProductModel; }
+  ): ProductsState  => {
+
   switch (action.type) {
     case PRODUCT_LOADING: {
       return {
@@ -44,4 +47,5 @@ export default (state = intialState, action: { type?: string; product?: ApiProdu
     default:
       return state;
   }
+  
 };

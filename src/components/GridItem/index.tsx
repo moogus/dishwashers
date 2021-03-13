@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from "react";
 import { useNavigate } from "@reach/router";
 
-import { GridItem as GridItemType } from "../../types";
+import { GridItemModel } from "../../types";
 
-type GridItemProps = {
-  gridItem: GridItemType;
+export type GridItemProps = {
+  gridItem: GridItemModel;
 };
 
 import {

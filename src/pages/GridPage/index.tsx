@@ -1,8 +1,9 @@
 import React, { FunctionComponent } from "react";
 
-import { GridItem } from "../../components/GridItem";
 import useLoadGridItems from "../../hooks/grid-items/load-grid-items";
 import useGetGridItems from "../../hooks/grid-items/get-grid-items";
+
+import { GridItem } from "../../components/GridItem";
 
 import { H1, Loader, PageContainer, GridContainer } from "./styled";
 

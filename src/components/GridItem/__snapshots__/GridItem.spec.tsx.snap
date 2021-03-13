@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GridItemComponent/> when <GridItem/> is rendered component renders as expected 1`] = `
+exports[`<GridItem/> when <GridItem/> is rendered component renders as expected 1`] = `
 <div>
   <div
     class="sc-bdfBwQ gQwMDF col-md-3"

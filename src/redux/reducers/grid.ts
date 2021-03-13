@@ -4,16 +4,20 @@ import {
   GRID_ERROR,
 } from "../actions/grid";
 
-import { ApiGridItem } from "../../types"
+import { ApiGridItemModel } from "../../types"
 import { GridItemsState } from "../../interfaces"
 
 export const intialState:GridItemsState = { 
-  products: [] as ApiGridItem[], 
+  products: [] as ApiGridItemModel[], 
   loading: true, 
   error: false
 };
 
-export default (state = intialState, action: { type?: string; products?: ApiGridItem[]; }) => {
+export default (
+  state = intialState, 
+  action: { type?: string; products?: ApiGridItemModel[]; }
+  ):GridItemsState => {
+
   switch (action.type) {
     case GRID_LOADING: {
       return {
@@ -42,4 +46,5 @@ export default (state = intialState, action: { type?: string; products?: ApiGrid
     default:
       return state;
   }
+  
 };

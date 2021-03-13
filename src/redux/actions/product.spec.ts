@@ -1,4 +1,5 @@
 import configureMockStore from 'redux-mock-store';
+import { Action } from 'redux';
 import thunk from 'redux-thunk';
 import fetchMock from 'fetch-mock';
 
@@ -19,7 +20,7 @@ describe('grid actions', () => {
       fetchMock.getOnce('/product/1234', { product: { foo: 'bar' } });
 
       const store = mockStore({});
-      await store.dispatch(actions.loadProduct('1234'));
+      await store.dispatch(actions.loadProduct('1234') as unknown as Action);
 
       expect(store.getActions()).toEqual([
         { type: actions.PRODUCT_LOADING },
@@ -38,7 +39,7 @@ describe('grid actions', () => {
       fetchMock.getOnce('/product/1234', { throws: new Error('What the dickens') });
 
       const store = mockStore({});
-      await store.dispatch(actions.loadProduct('1234'));
+      await store.dispatch(actions.loadProduct('1234') as unknown as Action);
 
       expect(store.getActions()).toEqual([
         { type: actions.PRODUCT_LOADING },

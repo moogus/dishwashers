@@ -6,13 +6,15 @@ module.exports = {
   },
 
   transform: {
-    '^.+\\.(js|jsx)$': 'babel-jest',
     '^.+\\.(ts|tsx)?$': 'ts-jest',
     '^.+\\.css$': '<rootDir>/jest/styleTransForm.js',
   },
 
   roots: ['<rootDir>/src'],
-  testMatch: ['<rootDir>/src/**/*.spec.js'],
+  testMatch: [
+    '<rootDir>/src/**/*.spec.ts',
+    '<rootDir>/src/**/*.spec.tsx'
+  ],
   transformIgnorePatterns: ['node_modules'],
 
   setupFilesAfterEnv: [

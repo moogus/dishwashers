@@ -1,6 +1,6 @@
-import { ApiProduct, Product } from "../types"
+import { ApiProductModel, ProductModel } from "../types";
 
-export const buildModel = (apiProduct:ApiProduct):Product => {
+export const buildModel = (apiProduct:ApiProductModel):ProductModel => {
   const {
     title,
     media,

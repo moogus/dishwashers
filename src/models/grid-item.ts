@@ -1,6 +1,6 @@
-import { ApiGridItem, GridItem } from "../types";
+import { ApiGridItemModel, GridItemModel } from "../types";
 
-export const buildModel = (apiGridItem: ApiGridItem): GridItem => {
+export const buildModel = (apiGridItem: ApiGridItemModel): GridItemModel => {
   const {
     productId,
     price,

@@ -1,17 +1,14 @@
-import { ApiGridItem, ApiProduct } from '../types'
-
+import { ApiGridItemModel, ApiProductModel } from '../types'
 export interface GridItemsState {
-    products: ApiGridItem[];
+    products: ApiGridItemModel[];
     loading: boolean;
     error: boolean;
 }
-
 export interface ProductsState {
-    product: ApiProduct;
+    product: ApiProductModel;
     loading: boolean;
     error: boolean;
 }
-
 export interface ApplicationState {
     grid: GridItemsState;
     product: ProductsState

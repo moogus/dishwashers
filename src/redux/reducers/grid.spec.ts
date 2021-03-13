@@ -1,3 +1,5 @@
+import { ApiGridItemModel } from '../../types';
+
 import * as actions from '../actions/grid';
 
 import gridReducer from './grid';
@@ -27,7 +29,7 @@ describe('gridReducer', () => {
       undefined,
       {
         type: actions.GRID_LOADED,
-        products:  ['stuff'],
+        products:  ['stuff'] as unknown as ApiGridItemModel[],
       },
     )).toEqual({
       products: ['stuff'],

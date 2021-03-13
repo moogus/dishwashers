@@ -1,3 +1,4 @@
+import { ApiProductModel } from '../../types';
 import * as actions from '../actions/product';
 
 import productReducer from './product';
@@ -27,7 +28,7 @@ describe('productReducer', () => {
       undefined,
       {
         type: actions.PRODUCT_LOADED,
-        product: { toy: 'cuddly' },
+        product: { toy: 'cuddly' } as unknown as ApiProductModel,
       },
     )).toEqual({ 
       product: { toy: 'cuddly' }, 

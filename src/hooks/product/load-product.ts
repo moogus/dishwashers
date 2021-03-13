@@ -7,7 +7,12 @@ import {
   ProductsState
 } from "../../interfaces";
 
-export default (productId) => {
+type LoadProductHook = {
+  loading: boolean;
+  error: boolean
+}
+
+export default (productId:string): LoadProductHook => {
   const dispatch = useDispatch();
   const { loading, error } = useSelector<ApplicationState, ProductsState>((state) => state.product);
 

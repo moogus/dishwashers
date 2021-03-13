@@ -1,4 +1,5 @@
 import configureMockStore from 'redux-mock-store';
+import { Action } from 'redux';
 import thunk from 'redux-thunk';
 import fetchMock from 'fetch-mock';
 
@@ -15,11 +16,11 @@ describe('grid actions', () => {
       fetchMock.restore();
     });
 
-    test('loads the product grid items', async () => {
+    test('loads the product grid items',  async () => {
       fetchMock.getOnce('/grid/', { products: ['foo'] });
 
       const store = mockStore({});
-      await store.dispatch(actions.loadProductGrid());
+      await store.dispatch(actions.loadProductGrid() as unknown as Action);
 
       expect(store.getActions()).toEqual([
         { type: actions.GRID_LOADING },
@@ -38,7 +39,7 @@ describe('grid actions', () => {
       fetchMock.getOnce('/grid/', { throws: new Error('What the dickens') });
 
       const store = mockStore({});
-      await store.dispatch(actions.loadProductGrid());
+      await store.dispatch(actions.loadProductGrid() as unknown as Action);
 
       expect(store.getActions()).toEqual([
         { type: actions.GRID_LOADING },
