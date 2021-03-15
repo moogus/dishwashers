@@ -3,7 +3,7 @@ import { useNavigate } from "@reach/router";
 
 import { GridItemModel } from "../../types";
 
-export type GridItemProps = {
+export interface GridItemProps {
   gridItem: GridItemModel;
 };
 

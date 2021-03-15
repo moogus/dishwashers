@@ -2,14 +2,13 @@ import React, { FunctionComponent } from "react";
 
 import useLoadGridItems from "../../hooks/grid-items/load-grid-items";
 import useGetGridItems from "../../hooks/grid-items/get-grid-items";
+import { BaseRouterProps } from "../../interfaces";
 
 import { GridItem } from "../../components/GridItem";
 
 import { H1, Loader, PageContainer, GridContainer } from "./styled";
 
-type GridPageProps = {
-  path: string;
-};
+interface GridPageProps extends BaseRouterProps {};
 
 export const GridPage: FunctionComponent<GridPageProps> = () => {
   const { loading } = useLoadGridItems();

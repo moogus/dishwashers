@@ -4,13 +4,13 @@ import { useNavigate } from "@reach/router";
 import { ProductTitle } from "../../components/ProductTitle";
 import { PortraitProductSection } from "../../components/PortraitProductSection";
 import { LandscapeProductSection } from "../../components/LanscapeProductSection";
+import { BaseRouterProps } from "../../interfaces";
 
 import useLoadProduct from "../../hooks/product/load-product";
 
 import { H1, NavigateBackButton, Loader, PageContainer } from "./styled";
 
-type ProductPageProps = {
-  path: string;
+interface ProductPageProps extends BaseRouterProps {
   productId?: string;
 };
 

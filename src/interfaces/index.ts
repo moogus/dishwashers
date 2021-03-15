@@ -13,3 +13,7 @@ export interface ApplicationState {
     grid: GridItemsState;
     product: ProductsState
 }
+
+export interface BaseRouterProps {
+  path: string;
+};
