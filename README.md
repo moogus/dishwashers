@@ -1,7 +1,4 @@
-# Dishwasher App [![Build Status](https://travis-ci.com/moogus/dishwashers.svg?branch=main)](https://travis-ci.com/moogus/dishwashers)
-
-### [Travis CI](https://travis-ci.com/github/moogus/dishwashers)
-![image](https://user-images.githubusercontent.com/4889659/107957152-19977300-6f98-11eb-954e-ed8b4095bcfc.png)
+# Dishwasher App 
 
 ## Project structure
 ```bash
